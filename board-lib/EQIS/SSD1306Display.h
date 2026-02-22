@@ -326,7 +326,7 @@ public:
         this->display->drawBitmap(0, 4, bitmap_init, 128, 55, WHITE);
         this->display->setTextSize(1);
         this->display->setCursor(36, 46);
-        this->display->print("Stationary");
+        this->display->print("Stability");
         this->display->setCursor(54, 54);
         this->display->print("checking..." + String(calibrate[calibrateIndex++]));
         this->display->setCursor(0, 0);
